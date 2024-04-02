@@ -11,6 +11,6 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
-          python boston house.py  # generate plot.png
+          python boston_house.py  # generate plot.png
 
         
