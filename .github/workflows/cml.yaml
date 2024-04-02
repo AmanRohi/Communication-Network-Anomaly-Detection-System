@@ -13,4 +13,6 @@ jobs:
           pip install -r requirements.txt
           python boston_house.py  # generate plot.png
 
+           cat result.txt >> report.md
+           cml comment create report.md
         
