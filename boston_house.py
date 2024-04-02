@@ -23,3 +23,10 @@ y_pred = model.predict(X_test)
 accuracy = r2_score(y_test, y_pred)
 
 print(f"Model Accuracy (R^2 Score): {accuracy}")
+
+result_file_path = 'result.txt'
+
+# Append the simulated accuracy to the file
+with open(result_file_path, 'w') as file:
+    file.write("Accuracy = " + str(accuracy))
+
