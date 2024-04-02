@@ -30,3 +30,6 @@ result_file_path = 'result.txt'
 with open(result_file_path, 'w') as file:
     file.write("Accuracy = " + str(accuracy))
 
+# added acuracy
+    
+
